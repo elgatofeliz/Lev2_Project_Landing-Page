@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rampart+One&family=Roboto:wght@400;700&display=swap');
+
+/* =================================================================
+font-family: 'Permanent Marker', cursive;
+font-family: 'Rampart One', cursive;
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100vw;
+}
+
+/*=====================================
+            General Styles
+======================================*/
+
+h1{
+    font-size: 120px;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    letter-spacing: 25px;
+}
+
+h3{
+    font-size: 42px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+section{
+    background: url(../img/Cover_4.jpg);
+    background-attachment: fixed;
+    position: relative;
+}
+
+section>ul{
+    padding: 5vh 0 0 10vw;
+    list-style: none;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+
+section>ul>li{
+    background: rgba(111, 165, 179, 0.5);
+    border: 2px solid #278f46;
+    width: 15vw;
+    padding: 1vh 0.5vw;
+    border-radius: 15px;
+    color: #efefef;
+    text-shadow: 0px 0px 10px black;
+    font-size: 18px;
+    margin: 1%;
+}
+
+/*=====================================
+                Hover
+======================================*/
+
+ul{
+    display: inline-block;
+}
+
+section>ul>li>div{
+    display: inline-block;
+    height: 53vh;
+    width: 65vw;
+    border: 5px solid #333;
+    border-radius: 15px;
+    display: none;
+    position: absolute;
+    top: 27vh;
+    left: 30vw;
+    overflow: hidden;
+}
+
+/*=======  List 1 =========*/
+
+ul>li:nth-of-type(1){
+    background: url(../img/aurora.jpg) center/cover no-repeat;
+}
+
+
+ul>li:nth-of-type(1):hover #a{
+    display: inline-block;
+}
+
+section>ul>li:nth-of-type(1)>div{
+    background: url(../img/aurora.jpg) center/cover no-repeat;
+}
+
+/*=======  List 2 =========*/
+
+ul>li:nth-of-type(2){
+    background: url(../img/kerid_c.jpg) center/cover no-repeat;
+}
+
+
+ul>li:nth-of-type(2):hover #b{
+    display: inline-block;
+}
+
+section>ul>li:nth-of-type(2)>div{
+    background: url(../img/kerid_c.jpg) center/cover no-repeat;
+}
+
+/*=======  List 3 =========*/
+
+ul>li:nth-of-type(3){
+    background: url(../img/Godavoss.jpg) center/cover no-repeat;
+}
+
+
+ul>li:nth-of-type(3):hover #c{
+    display: inline-block;
+}
+
+section>ul>li:nth-of-type(3)>div{
+    background: url(../img/Godavoss.jpg) center/cover no-repeat;
+}
+
+/*=======  List 4 =========*/
+
+ul>li:nth-of-type(4){
+    background: url(../img/hotsprings.jpg) center/cover no-repeat;
+}
+
+
+ul>li:nth-of-type(4):hover #d{
+    display: inline-block;
+}
+
+section>ul>li:nth-of-type(4)>div{
+    background: url(../img/hotsprings.jpg) center/cover no-repeat;
+}
+
+/*=======  List 5 =========*/
+
+ul>li:nth-of-type(5){
+    background: url(../img/Road_2.jpg) center/cover no-repeat;
+}
+
+
+ul>li:nth-of-type(5):hover #e{
+    display: inline-block;
+}
+
+section>ul>li:nth-of-type(5)>div{
+    background: url(../img/Road_2.jpg) center/cover no-repeat;
+}
+
+/*=======  List 6 =========*/
+
+ul>li:nth-of-type(6){
+    background: url(../img/sculpture.jpg) center/cover no-repeat;
+}
+
+
+ul>li:nth-of-type(6):hover #f{
+    display: inline-block;
+}
+
+section>ul>li:nth-of-type(6)>div{
+    background: url(../img/sculpture.jpg) center/cover no-repeat;
+}
+
+/*=======  List 7 =========*/
+
+ul>li:nth-of-type(7){
+    background: url(../img/Hotel.jpg) center/cover no-repeat;
+}
+
+
+ul>li:nth-of-type(7):hover #g{
+    display: inline-block;
+}
+
+section>ul>li:nth-of-type(7)>div{
+    background: url(../img/Hotel.jpg) center/cover no-repeat;
+}
+
+/*=====================================
+                Form
+======================================*/
+
+form{
+    text-align: center;
+    padding: 14.5vh 0 5vh 0;
+}
+
+form>div>input{
+    height: 5vh;
+}
+
+form>input{
+    width: 25vw;
+    font-size: 28px;
+    background: rgba(170, 43, 170, 0.781);
+    border: 3px solid rgba(255, 113, 224, 0.596);
+    border-radius: 20px;
+    margin-top: 2vh;
+    padding: 0.5%;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
